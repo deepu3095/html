@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 15%;
+    
+}
+nav{
+    background-color: #e4efa6;
+    display: flex;
+    padding: 0px 5px;
+}
+nav .actions{
+    display: flex;
+    margin: 40px 0px;
+    /* background-color: rgb(33, 160, 202); */
+}
+nav .actions button{
+    background-color: rgb(33, 160, 202);
+    color: #fff;
+    padding: 2px 40px;
+    border:2px solid yellow;
+    border-radius: 2px;
+    
+}
+nav .actions .login{
+    background-color: rgb(33, 160, 202);
+    border: 2px solid yellow;
+    margin: 0px 10px;
+}
+nav .logo h1{
+    text-align:center;
+    /* margin: 3px; */
+    padding: 0px;
+    width: 40px;
+}
