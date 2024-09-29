@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #000;
+    background-color: #ddd;
     /* color: #fff; */
 }
 nav .logo img{
@@ -61,6 +61,8 @@ nav .logo h1 {
     display: flex;
     flex-direction: column; 
     /* justify-content: space-between;  */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
     
 }
 
@@ -93,13 +95,19 @@ nav .logo h1 {
     font-style: italic;
     font-weight: 600;
 }
-.content1{
-    display: flex;
-}
-.content1 img{
+.holder1 img{
     width: 40%;
-    background-color: aquamarine;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(67, 53, 188, 0.3) 0px 8px 16px -8px;
+    margin: 10px 20px;
+    border-radius: 20px;
+
 }
-.content1 h3{
-    color: #fff;
+.holder1{
+    display: flex;
+
+   
+}
+.content1 p{
+    padding: 30rem;
+    
 }
